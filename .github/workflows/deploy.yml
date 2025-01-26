@@ -26,4 +26,4 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name 2dispgame --destination '$web' --source . --auth-mode login --overwrite 
+            az storage blob upload-batch --account-name 2dispgame --destination '$web' --source . --auth-mode login --overwrite
